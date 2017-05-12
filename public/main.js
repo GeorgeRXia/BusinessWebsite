@@ -18,3 +18,16 @@ var carousel=document.getElementsByClassName("pic1")[0]
     window.setTimeout(carouselStart,3000)
 
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
