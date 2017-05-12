@@ -1,3 +1,5 @@
+
+
 var carousel=document.getElementsByClassName("pic1")[0]
 
  function carouselStart() {
@@ -18,11 +20,3 @@ var carousel=document.getElementsByClassName("pic1")[0]
     window.setTimeout(carouselStart,3000)
 
  }
-var innerModal = document.getElementsByClassName("")[0];
- window.addEventListener("load", function(){
-
-
-
-
-
- })

@@ -9,6 +9,7 @@
     width: 30%;
     float: right;
     margin-top: 50px;
+
 }
 .inner-left {
     padding: 5px 5px 5px 5px;
@@ -21,28 +22,43 @@
     font-size: 11px;
     padding: 5px 5px 5px 5px;
     border: #999999 1px solid;
-    min-height: 60px;
-    position: fixed;
+    height: 400px;
+    // position: fixed;
+    overflow: scroll;
+    bottom: 10px;
+
 }
 
 .product-image-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 
-display: flex;
-flex-wrap : wrap;
-justify-content: space-around;
+}
+.product-info{
+	width: 200px;
+	height: 200px;
 
-
+	
 }
 .product-image{
-
-background-size: 100% 100%;
-width: 300px;
-height: 300px;
-
-margin: 10px;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 80%;
+	margin: 10px;
 
 
 }
+
+.prices{
+
+width: 100%;
+height: 20%;
+text-align: center;
+
+
+}
+
 
 .product-image1{
 
@@ -64,4 +80,9 @@ background-image: url("https://images.askmen.com/1080x540/video/big_shiny_things
 
 }
 
+.reviews{
+
+font-size: 25px;
+
+}
 
