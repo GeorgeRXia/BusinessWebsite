@@ -27,12 +27,25 @@
   z-index: 100; }
 
 body {
-  background: red; }
+  background: gray; }
 
-.hero-image {
-  background-image: url("https://airbusdefenceandspace.com/wp-content/uploads/2016/09/earth-view-from-satellite-space-systems-cover.jpg");
+.pic1 {
+  background-image: url("pic1.jpg");
   height: 500px;
-  width: 100%; }
+  width: 100%;
+  background-size: 100% 100%; }
+
+.pic2 {
+  background-image: url("pic2.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: 100% 100%; }
+
+.pic3 {
+  background-image: url("pic3.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: 100% 100%; }
 
 .about-column-container {
   display: flex;
@@ -52,4 +65,3 @@ body {
   border: 2px solid black;
   border-radius: 50%; }
 
-/*# sourceMappingURL=styles.css.map */
