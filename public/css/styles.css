@@ -3,9 +3,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 50px;
   background-color: black;
-  border-bottom: 1px solid white;
+  border: 1px solid white;
   z-index: 100; }
 
 .menuBar {
@@ -21,9 +21,9 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 50px;
   background-color: black;
-  border-bottom: 1px solid white;
+  border: 1px solid white;
   z-index: 100; }
 
 body {
@@ -33,5 +33,29 @@ body {
   background-image: url("https://airbusdefenceandspace.com/wp-content/uploads/2016/09/earth-view-from-satellite-space-systems-cover.jpg");
   height: 500px;
   width: 100%; }
+
+.float-left-area {
+  width: 70%;
+  float: left;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.float-right-area {
+  width: 30%;
+  float: right;
+  margin-top: 50px; }
+
+.inner-left {
+  padding: 5px 5px 5px 5px;
+  margin-right: 10px;
+  border: #999999 1px solid;
+  min-height: 60px; }
+
+.inner-right {
+  font-size: 11px;
+  padding: 5px 5px 5px 5px;
+  border: #999999 1px solid;
+  min-height: 60px;
+  position: fixed; }
 
 /*# sourceMappingURL=styles.css.map */
