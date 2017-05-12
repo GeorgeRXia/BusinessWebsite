@@ -48,6 +48,11 @@ body{
 	color:white;
 }
 
+.header2_home {
+	text-align: center;
+	color:white;
+}
+
 .image1_jetpack_home {
 	background-image: url("../images/jetpack1.jpg");
 	height: 300px;
@@ -61,7 +66,44 @@ body{
 	width: 30%;
 }
 
+.drawing_container_home {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 
+.image_drawing1_home {
+	background-image: url("../images/drawing1.jpg");
+	height: 150px;
+	width: 30%;
+	background-size: 100% 100%;
+	border-radius: 100px;
+	box-shadow: 10px 10px 5px #454545;
+}
+
+.image_drawing2_home {
+	background-image: url("../images/drawing2.jpg");
+	height: 150px;
+	width: 30%;
+	background-size: 100% 100%;
+	border-radius: 100px;
+	box-shadow: 10px 10px 5px #454545;
+}
+
+.image_drawing3_home {
+	background-image: url("../images/drawing3.jpg");
+	height: 150px;
+	width: 30%;
+	background-size: 100% 100%;
+	border-radius: 100px;
+	box-shadow: 10px 10px 5px #454545;
+}
+
+.bottom_line_home {
+	width: 40%;
+}
 
 
 
