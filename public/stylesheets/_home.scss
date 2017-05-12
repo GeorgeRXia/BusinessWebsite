@@ -1,30 +1,67 @@
 body{
 	background: gray;
+	margin: 0 auto;
 
 }
 
-
 .pic1 {
-	background-image: url("pic1.jpg");
+	background-image: url("../images/pic1.jpg");
 	height: 500px;
 	width: 100%;
 	background-size: 100% 100%;
-
 }
 
 .pic2 {
-	background-image: url("pic2.jpg");
-	height: 500px;
-	width: 100%;
-	background-size: 100% 100%;
+	background-image: url("../images/pic2.jpg");
 }
 
 .pic3 {
-	background-image: url("pic3.jpg");
-	height: 500px;
+	background-image: url("../images/pic3.jpg");
+}
+
+.content_home1 {
+	width: 30%;
+	text-align:center;
+}
+
+.content_home2 {
+	width: 30%;
+	text-align:center;
+}
+
+.content_home3 {
+	width: 30%;
+	text-align:center;
+}
+
+.content_container {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+.header_home {
+	text-align: center;
+	color:white;
+}
+
+.image1_jetpack_home {
+	background-image: url("../images/jetpack1.jpg");
+	height: 300px;
 	width: 100%;
 	background-size: 100% 100%;
+	opacity: .5;
+	margin-bottom: 80px
 }
+
+.header_line {
+	width: 30%;
+}
+
+
 
 
 
