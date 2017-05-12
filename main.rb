@@ -18,6 +18,6 @@ get '/product' do
 end
 
 
-get '/image' do
-	erb :image
+get '/about' do
+	erb :about
 end
