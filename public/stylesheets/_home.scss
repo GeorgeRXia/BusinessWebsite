@@ -9,14 +9,17 @@ body{
 	height: 500px;
 	width: 100%;
 	background-size: 100% 100%;
+	transition: 0.8s ease;
 }
 
 .pic2 {
 	background-image: url("../images/pic2.jpg");
+	transition: 0.8s ease;
 }
 
 .pic3 {
 	background-image: url("../images/pic3.jpg");
+	transition: 0.8s ease;
 }
 
 .content_home1 {
