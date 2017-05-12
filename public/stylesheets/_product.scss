@@ -1,0 +1,88 @@
+.float-left-area  {
+    width: 70%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.float-right-area {
+    width: 30%;
+    float: right;
+    margin-top: 50px;
+
+}
+.inner-left {
+    padding: 5px 5px 5px 5px;
+    margin-right: 10px;
+    border: #999999 1px solid;
+    min-height: 60px;
+
+}
+.inner-right {
+    font-size: 11px;
+    padding: 5px 5px 5px 5px;
+    border: #999999 1px solid;
+    height: 400px;
+    // position: fixed;
+    overflow: scroll;
+    bottom: 10px;
+
+}
+
+.product-image-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.product-info{
+	width: 200px;
+	height: 200px;
+
+	
+}
+.product-image{
+	background-size: 100% 100%;
+	width: 100%;
+	height: 80%;
+	margin: 10px;
+
+
+}
+
+.prices{
+
+width: 100%;
+height: 20%;
+text-align: center;
+
+
+}
+
+
+.product-image1{
+
+background-image: url("https://images.askmen.com/1080x540/video/big_shiny_things/jetpacks-are-coming-in-2016-for-200-000-1107573-TwoByOne.jpg")
+
+}
+
+.product-image2{
+
+background-image: url("https://images.askmen.com/1080x540/video/big_shiny_things/jetpacks-are-coming-in-2016-for-200-000-1107573-TwoByOne.jpg")
+
+
+}
+
+.product-image3{
+
+background-image: url("https://images.askmen.com/1080x540/video/big_shiny_things/jetpacks-are-coming-in-2016-for-200-000-1107573-TwoByOne.jpg")
+
+
+}
+
+.reviews{
+
+font-size: 25px;
+
+}
+

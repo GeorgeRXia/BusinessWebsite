@@ -12,7 +12,7 @@ get '/contact' do
 end
 
 get '/product' do
-	erb :contact
+	erb :product
 
 
 end
