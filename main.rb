@@ -9,6 +9,7 @@ end
 
 
 get '/contact' do
+@name = params[:email]
 
 	erb :contact
 end
@@ -44,6 +45,6 @@ post '/toserver' do
 	puts response.body
 	puts response.headers
 
-
-redirect "./contact"
+redirect "/contact?email=#{@name}"
+# erb :contact
 end
