@@ -8,7 +8,7 @@ box-sizing: border-box;
 h2{
 text-align: center;
 color: white;
-
+text-decoration: underline;
 
 }
 
@@ -36,7 +36,7 @@ color: white;
     font-size: 11px;
     padding: 5px 5px 5px 5px;
     border: #999999 1px solid;
-    height: 800px;
+    height: 930px;
  
     overflow: scroll;
     bottom: 10px;
@@ -110,3 +110,8 @@ text-decoration: none;
 
 }
 
+hr{
+width: 40px;
+
+
+}
