@@ -1,16 +1,22 @@
 
 
 
+<div class="thank-you">
+	THANK YOU!
+</div>
+
 <div class="outer-modal">
 	<div class="inner-modal">
 		<div class="close">&times;</div>
 			<div class="content">
 					<form action= "/toserver" method= "POST">
+
 					<input type="text" name="email" placeholder="Your Email Address">
 					<textarea name="message" placeholder="Write Your Message"></textarea>
 					<div class="email-submit-button">
 						<input type= "submit">
 					</div>
+
 					</form>
 			</div>
 		</div>
@@ -22,4 +28,9 @@
 
 </div>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+<%if  @name %>
+
+<%else  %>
 <script type="text/javascript" src= "contact.js"></script>
+<%end%>
