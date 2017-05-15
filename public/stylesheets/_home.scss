@@ -1,7 +1,22 @@
 body{
-	background: gray;
+	background: #F5F5ED;
 	margin: 0 auto;
 
+}
+
+.masterText {
+	text-align: center;
+	color:#F5F5ED;
+	font-family: "sans-serif";
+	text-shadow: 2px 2px black;
+	font-size: 24px;
+	position:absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	text-align: center;
 }
 
 .pic1 {
@@ -25,16 +40,19 @@ body{
 .content_home1 {
 	width: 30%;
 	text-align:center;
+	color: #5E5E5E;
 }
 
 .content_home2 {
 	width: 30%;
 	text-align:center;
+	color: #5E5E5E;
 }
 
 .content_home3 {
 	width: 30%;
 	text-align:center;
+	color: #5E5E5E;
 }
 
 .content_container {
@@ -48,12 +66,16 @@ body{
 
 .header_home {
 	text-align: center;
-	color:white;
+	color:#74B09B;
+	font-family: "futura";
+	text-shadow: 2px 2px black;
 }
 
 .header2_home {
 	text-align: center;
-	color:white;
+	color:#74B09B;
+	font-family: "futura";
+	text-shadow: 2px 2px black;
 }
 
 .image1_jetpack_home {
@@ -84,7 +106,12 @@ body{
 	background-size: 100% 100%;
 	border-radius: 100px;
 	box-shadow: 10px 10px 5px #454545;
+	transition: all .2s ease-in-out;
 }
+
+.image_drawing1_home:hover {
+	transform: scale(1.2);
+} 
 
 .image_drawing2_home {
 	background-image: url("../images/drawing2.jpg");
@@ -93,6 +120,11 @@ body{
 	background-size: 100% 100%;
 	border-radius: 100px;
 	box-shadow: 10px 10px 5px #454545;
+	transition: all .2s ease-in-out;
+}
+
+.image_drawing2_home:hover {
+	transform: scale(1.2);
 }
 
 .image_drawing3_home {
@@ -102,11 +134,13 @@ body{
 	background-size: 100% 100%;
 	border-radius: 100px;
 	box-shadow: 10px 10px 5px #454545;
+	transition: all .2s ease-in-out;
+}
+
+.image_drawing3_home:hover {
+	transform: scale(1.2);
 }
 
 .bottom_line_home {
 	width: 40%;
 }
-
-
-
