@@ -1,17 +1,9 @@
-*{
 
-box-sizing: border-box;
-
-}
-
-
-h2{
+h2 {
 text-align: center;
 color: #74B09B;
 text-shadow: 0px 1px black;
 font-size: 24px;
-
-
 }
 
 .float-left-area  {
@@ -27,6 +19,7 @@ font-size: 24px;
     margin-top: 50px;
 
 }
+
 .inner-left {
     padding: 5px 5px 5px 5px;
     margin-right: 10px;
@@ -34,12 +27,12 @@ font-size: 24px;
     min-height: 60px;
 
 }
+
 .inner-right {
     font-size: 11px;
     padding: 5px 5px 5px 5px;
     border: #999999 1px solid;
-    height: 800px;
- 
+    height: 930px;
     overflow: scroll;
     bottom: 10px;
 
@@ -51,6 +44,7 @@ font-size: 24px;
 	justify-content: space-around;
 
 }
+
 .product-info{
 	width: 200px;
 	height: 200px;
@@ -60,46 +54,38 @@ font-size: 24px;
 
 	
 }
+
 .product-image{
 	background-size: 100% 100%;
 	width: 100%;
 	height: 80%;
     border: 2px solid black;
-
-
 }
 
 .prices{
-
-width: 100%;
-height: 20%;
-text-align: center;
-
-
+    width: 100%;
+    height: 20%;
+    text-align: center;
 }
 
 
 .product-image1{
 
-background-image: url("https://images.askmen.com/1080x540/video/big_shiny_things/jetpacks-are-coming-in-2016-for-200-000-1107573-TwoByOne.jpg")
+background-image: url("https://images.askmen.com/1080x540/video/big_shiny_things/jetpacks-are-coming-in-2016-for-200-000-1107573-TwoByOne.jpg");
 
 }
 
 .product-image2{
 
-background-image: url("https://images.askmen.com/1080x540/video/big_shiny_things/jetpacks-are-coming-in-2016-for-200-000-1107573-TwoByOne.jpg")
-
-
+background-image: url("https://images.askmen.com/1080x540/video/big_shiny_things/jetpacks-are-coming-in-2016-for-200-000-1107573-TwoByOne.jpg");
 }
 
 .product-image3{
 
-background-image: url("https://images.askmen.com/1080x540/video/big_shiny_things/jetpacks-are-coming-in-2016-for-200-000-1107573-TwoByOne.jpg")
-
-
+background-image: url("https://images.askmen.com/1080x540/video/big_shiny_things/jetpacks-are-coming-in-2016-for-200-000-1107573-TwoByOne.jpg");
 }
 
-.reviews{
+.reviews {
 
 font-size: 25px;
 
@@ -111,4 +97,3 @@ color: black;
 text-decoration: none;
 
 }
-
