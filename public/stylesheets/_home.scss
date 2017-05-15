@@ -85,7 +85,8 @@ body {
 	width: 100%;
 	background-size: 100% 100%;
 	opacity: .5;
-	margin-bottom: 50px
+	position: relative;
+	bottom: 2;
 }
 
 .header_line {
@@ -112,7 +113,7 @@ body {
 
 .image_drawing1_home:hover {
 	transform: scale(1.2);
-} 
+}
 
 .image_drawing2_home {
 	background-image: url("../images/drawing2.jpg");
