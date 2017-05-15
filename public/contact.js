@@ -6,11 +6,7 @@ outerModal.style.display = "block";
 
  })
 
-document.addEventListener("keyup", function(event){
-	if(event.key === "g"){
-		outerModal.style.display = "none";
-	}
-});
+
 
 
 span.addEventListener("click", function(){
