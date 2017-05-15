@@ -13,8 +13,6 @@ end
 
 get '/product' do
 	erb :product
-
-
 end
 
 
