@@ -158,8 +158,24 @@ body {
   	left: 35%;
   	opacity: .8;
   	transition: all .2s ease-in-out;
+    left: -100px;
+    width: 100px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 1s;
 }
 
 .masterLogo:hover {
 	transform: scale(1.5);
+   
 }
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
