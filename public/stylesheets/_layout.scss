@@ -2,7 +2,19 @@ a {
     text-decoration: none;
 }
 
-.navBar{
+.media {
+    background-size: 100% 100%;
+    background-image:url("../images/social.png");
+    height: 50px;
+    width: 15%;
+    float: right;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.navBar {
     position: fixed;
     top: 0;
     left: 0;
@@ -35,5 +47,4 @@ a {
     height: 50px;
     background-color: #9C9C87;
     z-index: 100;
-
 }
