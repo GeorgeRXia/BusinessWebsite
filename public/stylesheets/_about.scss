@@ -8,9 +8,12 @@
 }
 
 .about-column {
+	transition:1s;
+	opacity:0.2;
 	text-align: center;
 	width:300px;
 }
+
 
 .about-column-photo {
 	margin:0 auto;
