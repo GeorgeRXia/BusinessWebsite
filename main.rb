@@ -32,6 +32,7 @@ post '/toserver' do
 	@message = params[:message]
 	@subject = params[:subject]
 
+	p @name
 	from = Email.new(email: @name)
 	to = Email.new(email: 'ianzolitor@gmail.com')
 	subject = @subject
