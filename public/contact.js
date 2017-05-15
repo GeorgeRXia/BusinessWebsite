@@ -14,7 +14,7 @@ document.addEventListener("keyup", function(event){
 
 
 span.addEventListener("click", function(){
-console.log('whatever')
+
 outerModal.style.display = "none";
 });
 
