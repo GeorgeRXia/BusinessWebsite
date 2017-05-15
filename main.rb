@@ -31,7 +31,7 @@ post '/toserver' do
 	@message = params[:message]
 	p @name
 	from = Email.new(email: @name)
-	to = Email.new(email: 'georxia@gmail.com')
+	to = Email.new(email: 'ianzolitor@gmail.com')
 	subject = 'Sending with SendGrid is Fun'
 	content = Content.new(type: 'text/plain', value: @message)
 	mail = Mail.new(from, subject, to, content)
