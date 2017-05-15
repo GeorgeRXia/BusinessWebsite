@@ -10,7 +10,7 @@ end
 
 get '/contact' do
 # @name = params[:email]
-@name
+@name 
 p @name
 	erb :contact
 end
