@@ -9,7 +9,9 @@ end
 
 
 get '/contact' do
-
+# @name = params[:email]
+@name
+p @name
 	erb :contact
 end
 
@@ -29,7 +31,7 @@ post '/toserver' do
 
 	@name = params[:email]
 	@message = params[:message]
-	p @name
+
 	from = Email.new(email: @name)
 	to = Email.new(email: 'ianzolitor@gmail.com')
 	subject = 'Sending with SendGrid is Fun'
